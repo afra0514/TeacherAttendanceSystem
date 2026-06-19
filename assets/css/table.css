@@ -1,0 +1,41 @@
+.table-container {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    padding: 15px;
+    color: var(--text-grey);
+    font-size: 13px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+table td {
+    padding: 18px 15px;
+    font-size: 15px;
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+table tr { border-bottom: 1px solid #f7f7f7; }
+
+table tr:last-child { border: none; }
+
+/* Status Badges */
+.badge {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.badge-present { background: #e6fff5; color: #05cd99; }
+.badge-absent { background: #fff1f0; color: #ee5d50; }
