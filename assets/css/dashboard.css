@@ -1,0 +1,35 @@
+.dashboard-header { margin-bottom: 30px; }
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.card h3 {
+    color: var(--text-grey);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+/* Status Indicators */
+.card-total { border-left: 6px solid #4318ff; }
+.card-present { border-left: 6px solid #05cd99; }
+.card-absent { border-left: 6px solid #ee5d50; }
