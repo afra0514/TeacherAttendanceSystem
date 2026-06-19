@@ -8,7 +8,7 @@
 8.  Office Shift Manager
 9.  Courier Status Tracker
 10. Laundry Management System
-11. Car Rental Status
+11. Car Rental Status System
 12. Apartment Rent Tracker
 13. Inventory Stock Manager
 14. Tailor Order Tracker
