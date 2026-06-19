@@ -1,0 +1,11 @@
+INSERT INTO attendance (instructor_id, attendance_date, status) VALUES
+(1, CURDATE(), 'Present'),
+(2, CURDATE(), 'Present'),
+(3, CURDATE(), 'Absent'),
+(4, CURDATE(), 'Present'),
+(5, CURDATE(), 'Present'),
+(6, CURDATE(), 'Absent'),
+(7, CURDATE(), 'Present'),
+(8, CURDATE(), 'Present'),
+(9, CURDATE(), 'Present'),
+(10, CURDATE(), 'Absent');
