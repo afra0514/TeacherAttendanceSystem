@@ -1,0 +1,44 @@
+To run your project on XAMPP, follow these simple steps:
+
+1. Move your Project to XAMPP
+
+  - Go to the folder where XAMPP is installed (usually C:\xampp).
+  - Open the htdocs folder.
+  - Create a new folder named TeacherAttendanceSystem.
+  - Paste all your PHP files and assets (css, js) inside this folder.
+
+2. Start the Servers
+
+  - Open the XAMPP Control Panel.
+  - Click the Start button next to Apache (this runs your PHP).
+  - Click the Start button next to MySQL (this runs your Database).
+
+3. Setup the Database
+
+  - Open your browser and type: localhost/phpmyadmin
+  - Click on New on the left side.
+  - Create a database named db_attendance (as written in your db.php).
+  - Create your tables (instructors and attendance) or Import your .sql file if
+    you have one.
+
+4. How to use VS Code
+
+  - Open VS Code.
+  - Go to File > Open Folder.
+  - Select your project folder from C:\xampp\htdocs\TeacherAttendanceSystem.
+  - Now you can edit your code. VS Code will automatically save changes to the
+    XAMPP folder.
+
+5. Run the Project
+
+  - Open your browser (Chrome or Edge).
+  - Type this in the address bar: localhost/TeacherAttendanceSystem/index.php
+  - Your welcome screen should now appear!
+
+Summary Checklist:
+
+1.  Folder: Must be inside C:\xampp\htdocs.
+2.  XAMPP: Apache and MySQL must be Green.
+3.  Database: Name must match exactly with your db.php file.
+4.  URL: Always use localhost/ in the browser, do not double-click the file to
+    open it.
