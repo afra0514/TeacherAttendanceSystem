@@ -27,7 +27,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <!-- Instructors Link: This stays "active" if you are viewing, adding, or editing instructors -->
         <li>
-            <a href="/TeacherAttendanceSystem/instructors/view_instructors.php" class="<?= ($current_page == 'view_instructors.php' || $current_page == 'add_instructors.php' || $current_page == 'edit_instructors.php') ? 'active' : ''; ?>">
+            <a href="/TeacherAttendanceSystem/instructors/view_instructors.php" class="<?= ($current_page == 'view_instructor.php' || $current_page == 'add_instructor.php' || $current_page == 'edit_instructor.php') ? 'active' : ''; ?>">
                 <i class="fas fa-user-tie"></i> <span>Instructors</span>
             </a>
         </li>
