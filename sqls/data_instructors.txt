@@ -1,0 +1,11 @@
+INSERT INTO instructors (name, email, phone, designation) VALUES
+('Prof. Sultana Begum', 'sultana@example.com', '01711223301', 'Professor'),
+('Dr. Nusrat Jahan', 'nusrat@example.com', '01711223302', 'Associate Professor'),
+('Ms. Fatema Tuz Zahra', 'fatema@example.com', '01711223303', 'Lecturer'),
+('Mrs. Sharmin Akter', 'sharmin@example.com', '01711223304', 'Senior Lecturer'),
+('Dr. Rehana Parvin', 'rehana@example.com', '01711223305', 'Professor'),
+('Ms. Tahmina Chowdhury', 'tahmina@example.com', '01711223306', 'Lecturer'),
+('Mrs. Sabina Yasmin', 'sabina@example.com', '01711223307', 'Assistant Professor'),
+('Dr. Mariam Sultana', 'mariam@example.com', '01711223308', 'Associate Professor'),
+('Ms. Ishrat Jahan', 'ishrat@example.com', '01711223309', 'Lecturer'),
+('Mrs. Nasrin Sultana', 'nasrin@example.com', '01711223310', 'Assistant Professor');
