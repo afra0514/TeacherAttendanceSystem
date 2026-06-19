@@ -1,8 +1,7 @@
 <nav class="top-navbar">
     <!-- Left Side: Automatic Page Title -->
     <div class="nav-left">
-        <div class="breadcrumb-container">  
-            <span class="parent-page">Pages / </span>
+        <div class="breadcrumb-container">   
             <span class="current-page">
                 <?php  
                     // Get current filename and format it
